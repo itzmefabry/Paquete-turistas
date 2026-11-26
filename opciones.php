@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <form action="recibe_opciones.php" method="POST">
+    <form action="resultados.php" method="POST">
 
         <label for="Destinos"><h1>Destinos Turísticos</h1></label>
 
