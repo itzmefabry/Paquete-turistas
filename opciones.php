@@ -15,8 +15,7 @@
             <option value="puertoescondido">Puerto Escondido</option>
         </select>
 
-
-        <label>Actividades Turísticas</label> 
+                <label>Actividades Turísticas</label> 
         <input type="checkbox" value="buceo" name="Actividades[]" > Buceo 
         <input type="checkbox" value="paseolancha" name="Actividades[]" > Paseo en lancha 
         <input type="checkbox" value="zonasarqueologicas" name="Actividades[]" > Visita a zonas arqueológicas 
@@ -42,6 +41,7 @@
 
         <label for="correo">Correo electrónico</label>
         <input type="email" id="correo" name="correo">
+
 
 
         <button type="submit">Generar paquete</button>
