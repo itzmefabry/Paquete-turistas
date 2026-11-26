@@ -1,9 +1,11 @@
 <html>
-<head></head>
+<head>
+    <link rel="stylesheet" href="estilos.css">
+</head>
 <body>
     <form action="recibe_opciones.php" method="POST">
 
-        <label for="Destinos">Destinos Turísticos</label>
+        <label for="Destinos"><h1>Destinos Turísticos</h1></label>
 
         <select id="Destinos" name="Destinos[] " multiple>
             <option value="cancun">Cancún</option>
@@ -15,7 +17,10 @@
             <option value="puertoescondido">Puerto Escondido</option>
         </select>
 
-                <label>Actividades Turísticas</label> 
+        <br><br>
+
+
+                <label><h1>Actividades Turísticas</h1></label> 
         <input type="checkbox" value="buceo" name="Actividades[]" > Buceo 
         <input type="checkbox" value="paseolancha" name="Actividades[]" > Paseo en lancha 
         <input type="checkbox" value="zonasarqueologicas" name="Actividades[]" > Visita a zonas arqueológicas 
@@ -24,8 +29,9 @@
         <input type="checkbox" value="recorridogastronomico" name="Actividades[]" > Recorrido gastronómico 
         <input type="checkbox" value="museos" name="Actividades[]" > Visita a museos
 
+        <br><br>
 
-        <label>Servicios adicionales</label>
+        <label><h1>Servicios adicionales</h1></label>
 
         <input type="checkbox" value="transporteaeropuerto" name="Servicios[]"> Transporte al aeropuerto
         <input type="checkbox" value="desayunoincluido" name="Servicios[]"> Desayuno incluido
@@ -36,14 +42,17 @@
 
         <br>
         <br>
-        
+
         <label for="nombre"> Nombre completo </label>
         <input type="text" id="nombre" name="nombre">
+
+        <br>
 
         <label for="correo">Correo electrónico</label>
         <input type="email" id="correo" name="correo">
 
-
+        <br>
+        <br>
 
         <button type="submit">Generar paquete</button>
 
