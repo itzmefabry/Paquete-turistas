@@ -36,6 +36,7 @@
 
         <br>
         <br>
+        
         <label for="nombre"> Nombre completo </label>
         <input type="text" id="nombre" name="nombre">
 
